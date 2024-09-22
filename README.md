@@ -19,20 +19,20 @@ This is a computer vision-based ping pong game that allows players to control th
 To install and run the project, follow these steps:
 
 1. Clone the repository:
-   ```bash
+```bash
    git clone <repository-url>
    cd ping-pong-game
-   ```
+```
 Install the required dependencies:
   
-  ```bash
+```bash
     pip install -r requirements.txt
-  ```
+```
 Run the game:
 
-  ```bash
+```bash
   python game.py
-  ```
+```
 ## Usage
 - Ensure your webcam is connected, as the game relies on hand tracking to control the paddle.
 - The paddle moves in the vertical direction based on the position of your hand detected by the camera.
