@@ -23,52 +23,40 @@ To install and run the project, follow these steps:
    ```bash
    git clone <repository-url>
    cd ping-pong-game
+   ```
 Install the required dependencies:
 
-  ```bash
-  pip install -r requirements.txt
-```
+    ```bash
+    pip install -r requirements.txt
+    ```
 Run the game:
 
-```bash
-python game.py
-```
+  ```bash
+  python game.py
+  ```
 ## Usage
-Ensure your webcam is connected, as the game relies on hand tracking to control the paddle.
-The paddle moves in the vertical direction based on the position of your hand detected by the camera.
-The ball bounces between the two paddles (player and computer) until a player misses, resulting in a win/loss.
-Project Structure
-img/
-Contains image assets used for paddles and ball.
+- Ensure your webcam is connected, as the game relies on hand tracking to control the paddle.
+- The paddle moves in the vertical direction based on the position of your hand detected by the camera.
+- The ball bounces between the two paddles (player and computer) until a player misses, resulting in a win/loss.
 
-package/
-Contains the game mechanics code including ball, player, and computer logic.
+## Project Structure
+- **img/**  
+  Contains image assets used for paddles and ball.
 
-game.py
-The main game file that initializes the webcam feed, handles hand detection using MediaPipe, and runs the game loop.
+- **package/**  
+  Contains the game mechanics code including ball, player, and computer logic.
 
-requirements.txt
-Lists all the Python libraries and dependencies needed to run the game (OpenCV, MediaPipe, cvzone, etc.).
+- **game.py**  
+  The main game file that initializes the webcam feed, handles hand detection using MediaPipe, and runs the game loop.
 
-README.md
-Documentation for the project.
+- **requirements.txt**  
+  Lists all the Python libraries and dependencies needed to run the game (OpenCV, MediaPipe, cvzone, etc.).
 
-Technologies Used
-OpenCV: For video capture and real-time frame processing.
-MediaPipe: For hand detection and tracking.
-cvzone: For easy overlaying of images (paddle, ball) on the video feed.
-NumPy: For handling image arrays and matrix operations.
-Future Enhancements
-Add a score counter to track the number of successful hits.
-Implement different levels of difficulty for the computer-controlled opponent.
-Enhance the user interface with more interactive game-over screens.
-Add multiplayer functionality over a network.
-License
-This project is licensed under the MIT License.
+- **README.md**  
+  Documentation for the project.
 
-Let me know if you need any further modifications!
-
-
-
-
-
+## Technologies Used
+- **OpenCV**: For video capture and real-time frame processing.
+- **MediaPipe**: For hand detection and tracking.
+- **cvzone**: For easy overlaying of images (paddle, ball) on the video feed.
+- **NumPy**: For handling image arrays and matrix operations.
