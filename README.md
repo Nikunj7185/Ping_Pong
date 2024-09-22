@@ -25,15 +25,15 @@ To install and run the project, follow these steps:
    cd ping-pong-game
 Install the required dependencies:
 
-bash
-Copy code
-pip install -r requirements.txt
+  ```bash
+  pip install -r requirements.txt
+```
 Run the game:
 
-bash
-Copy code
+```bash
 python game.py
-Usage
+```
+## Usage
 Ensure your webcam is connected, as the game relies on hand tracking to control the paddle.
 The paddle moves in the vertical direction based on the position of your hand detected by the camera.
 The ball bounces between the two paddles (player and computer) until a player misses, resulting in a win/loss.
