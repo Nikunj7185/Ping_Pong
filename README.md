@@ -8,7 +8,6 @@ This is a computer vision-based ping pong game that allows players to control th
 - [Usage](#usage)
 - [Project Structure](#project-structure)
 - [Technologies Used](#technologies-used)
-- [Future Enhancements](#future-enhancements)
 
 ## Features
 - Control the paddle using real-time hand gesture recognition through a webcam.
@@ -25,10 +24,10 @@ To install and run the project, follow these steps:
    cd ping-pong-game
    ```
 Install the required dependencies:
-
-    ```bash
+  
+  ```bash
     pip install -r requirements.txt
-    ```
+  ```
 Run the game:
 
   ```bash
